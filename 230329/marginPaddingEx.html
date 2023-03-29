@@ -4,18 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>margin padding 연습</title>
+    <style>
+        body {
+            text-align: center; 
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: auto; 
+            font-weight: bold;             
+        }
+        h1 {
+            width: 500px;
+            background-color: #277bc0;
+            color: #fff;
+            padding: 30px;      
+            border-radius: 25px 25px 0 0;
+            border-bottom: solid 10px #ffb200;
+            margin: 30px auto;
+
+        }
+        h2 {
+            text-decoration: line-through;
+        }
+        .box {
+            border: 1px solid #000;
+            width: 500px;
+            margin: 7px auto;
+            text-align: left;
+            vertical-align: baseline;
+            padding: 5px;
+        }
+        .box:hover {
+            background-color: #ffb200;
+            cursor: pointer;
+            text-decoration: line-through;
+            color: #277bc0;
+        }
+        p {
+            background-color: #ff1e00;
+            color: #000;
+            padding: 8px;
+            margin: 1px auto;
+        }
+        p:hover {
+            background-color: #ffb200;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+
+    </style>
 </head>
 
 <body>
-    <div class="box box1">
-
-    </div>
-    <div class="box box2">
-
-    </div>
-    <div class="box box3">
-
-    </div>
+    <h1>Margin Padding 연습</h1>
+    <section>
+        <h2>조건</h2>
+           <ul>
+                <li class="box">마우스 이벤트</li>
+                <li class="box">사이트 새창으로 이동</li>
+                <li class="box">중앙 정렬</li>
+            </ul>
+    </section>
+    <section class="link">
+        <p><a href="https://www.naver.com/" target="blank">네이버</a></p>
+        <p><a href="https://www.google.co.kr" target="blank">구글</a></p>
+        <p><a href="https://www.daum.net/" target="blank">다음</a></p>
+    </section>
    
 </body>
 </html>

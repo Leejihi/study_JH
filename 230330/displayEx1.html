@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>display 연습 1</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .gnb {
+            text-align: center;
+            margin: auto;
+            padding-left: 0;
+        }
+        .gnb li{
+            background-color: gold;
+            display: inline-block;
+            width: 100px; height: 30px;
+           
+            border: 2px solid #000;
+            margin: 10px;           
+        }
+            
+        
+        a {
+            display: block;
+
+            color: black;
+            text-decoration: none;
+            font-size: 20px;
+            font-style: bold;
+            line-height: 30px;
+            
+        }
+        a:hover {
+            background-color: dodgerblue;
+            color: #fff;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>display 연습 1</h1>
+    <ul>
+        <li>마우스를 올리면 글자색과 배경색 변경</li>
+        <li>중앙 정렬</li>
+    </ul>
+
+    <ul class="gnb">
+        <li><a href="#">menu1</a></li>
+        <li><a href="#">menu1</a></li>
+        <li><a href="#">menu1</a></li>
+        <li><a href="#">menu1</a></li>
+    </ul>
+</body>
+</html>

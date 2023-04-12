@@ -4,8 +4,6 @@ UI/UX 웹퍼블리셔 공부 중!!
 
 ## 230412 과제기록
 
-![backgroundEx](./230412/images/backgroundEx.jpg)
-
 __오늘의 고민 1:  background 축약에서 이미지 크기 수정__
 
     축약형을 활용하여 이미지를 원하는 비율의 사이즈로 한번에 적용하고 싶다.

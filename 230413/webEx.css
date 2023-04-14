@@ -6,6 +6,10 @@
 /* font-family: 'Abril Fatface', 'Pacifico', cursive, 'Noto Sans KR', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans+KR:wght@100;400;700&family=Pacifico&display=swap');
 
+body {
+    height: 100vh;
+    background: url(./images/floor.png) no-repeat 0 0 / cover ;
+}
 .kim {
     font-family: 'Noto Sans KR', "맑은 고딕", "돋움",sans-serif;
     text-transform: capitalize;

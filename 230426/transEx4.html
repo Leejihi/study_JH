@@ -10,22 +10,22 @@
         } 
         .box1 {
             width: 200px; height: 200px;
-            background-color: rgb(109, 255, 109);
-            opacity: 1;
+            background-color: rgb(109, 255, 109); 
+            margin: 20px 0 0;
+            overflow: hidden;
         }
         .box2 {
             width: 600px; height: 150px;
             background-color: rgb(47, 178, 254);
         }
         input[type=checkbox]:checked ~ .box2 {
-            transform: translateY(-200px);
+            transform: translateY(-50px);
         }
         input[type=checkbox]:checked ~ .box1 {
-            opacity: 0;
+            height: 50px;
         }
     </style>
 </head>
-
 <body>
     <h1>trans 연습 4</h1>
     <input type="checkbox" name="check" id="check">
@@ -35,7 +35,6 @@
         <h2>:checkded</h2>
         <p>같지 끓는 우리 가치를 있는 수 무엇을 약동하다. 얼음에 이상의 않는 그들에게 긴지라 봄바람이다. 있는 몸이 우리는 되려니와, 불어 같지 가는 속에 것이다.</p>
     </div>
-    <div class="box box2">block</div>
-    
+    <div class="box box2">block</div>   
 </body>
 </html>

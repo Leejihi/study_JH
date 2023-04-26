@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>transEx4</title>
+    <style>
+        .box {
+            transition: 1s;
+        } 
+        .box1 {
+            width: 200px; height: 200px;
+            background-color: rgb(109, 255, 109);
+            opacity: 1;
+        }
+        .box2 {
+            width: 600px; height: 150px;
+            background-color: rgb(47, 178, 254);
+        }
+        input[type=checkbox]:checked ~ .box2 {
+            transform: translateY(-200px);
+        }
+        input[type=checkbox]:checked ~ .box1 {
+            opacity: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>trans 연습 4</h1>
+    <input type="checkbox" name="check" id="check">
+    <label for="check">체크박스가 체크가되면 박스가 위로 올라와 사라집니다.</label>
+        
+    <div class="box box1">
+        <h2>:checkded</h2>
+        <p>같지 끓는 우리 가치를 있는 수 무엇을 약동하다. 얼음에 이상의 않는 그들에게 긴지라 봄바람이다. 있는 몸이 우리는 되려니와, 불어 같지 가는 속에 것이다.</p>
+    </div>
+    <div class="box box2">block</div>
+    
+</body>
+</html>

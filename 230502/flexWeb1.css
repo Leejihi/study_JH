@@ -16,6 +16,9 @@ header, footer {
     width: 100%; height: 30vh;
     padding: 7vw 20vw 13vw;
 }
+header p, footer p {
+    width: 55vw
+}
 h1 {
     margin: 0;
     font-size: 2.5rem;
@@ -39,7 +42,7 @@ em {
     font-weight: 300; font-size: 10px;
 
     display: block;
-    width: 180px; height: 50px;
+    width: 11vw; height: 3vw;
     border: 2px solid #c8c8c0;
     text-align: center; line-height: 50px;
     border-radius: 30px;
@@ -57,13 +60,10 @@ em {
 header h1 {
     font-size: 5rem;
 }
-header p, footer p {
-    width: 55vw
-}
 
 /* main */
 main .box1 {
-    width: 100%;
+    width: 100%; height: 40vw;
     display: flex;
 }
 main .box1 .txt {
@@ -71,7 +71,7 @@ main .box1 .txt {
     padding: 6vw 10vw 0;
 }
 main .box1 .img {
-    width: 60vw; height: 40vw;
+    width: 60vw; 
     background: url(./images/img1.jpg) no-repeat 50%/ cover;
 }
 
@@ -89,15 +89,15 @@ main .box2 .txt:nth-child(1) {
 }
 
 main .box3 {
-    width: 100%;
+    width: 100%; height: 40vw;
     display: flex;
 }
 main .box3 .txt {
-    width: 20vw;
+    width: 20vw; 
     padding: 6vw 10vw 0;
 }
 main .box3 .img {
-    width: 60vw; height: 40vw;
+    width: 60vw; 
     background: url(./images/img2.jpg) no-repeat 50%/ cover;
 }
 
@@ -107,7 +107,7 @@ footer .info {
 }
 footer .info input {
     outline: none;
-    width: 30vw; height: 50px;
+    width: 30vw; height: 3vw;
     border: 1px solid #c8c8c0;
     border-radius: 30px;
     background-color: #ffffff2e;

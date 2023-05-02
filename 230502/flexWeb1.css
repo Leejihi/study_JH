@@ -124,20 +124,20 @@ footer .icon {
     display: flex;
 }
 footer .icon li {
-    width: 3vw; aspect-ratio: 1;
+    width: 2vw; aspect-ratio: 1;
     border: 2px solid #c8c8c0;
     border-radius: 50%;
     margin-right: 0.7vw;
 }
 footer .icon li:nth-child(1) {
-    background: url(./images/twitter.png) no-repeat 50% / 25px;
+    background: url(./images/twitter.png) no-repeat 50% / 20px;
 }
 footer .icon li:nth-child(2) {
-    background: url(./images/facebook.png) no-repeat 50% / 25px;
+    background: url(./images/facebook.png) no-repeat 50% / 20px;
 }
 footer .icon li:nth-child(3) {
-    background: url(./images/insta.png) no-repeat 50% / 25px;
+    background: url(./images/insta.png) no-repeat 50% / 20px;
 }
 footer .icon li:nth-child(4) {
-    background: url(./images/mail.png) no-repeat 50% / 23px;
+    background: url(./images/mail.png) no-repeat 50% / 18px;
 }

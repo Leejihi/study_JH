@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+/* css 문서 내부에서 다른 문서 호출 */
+/* 'Pretendard Variable', sans-serif */
+@import url('../assets/css/pretendardvariable-dynamic-subset.css');
+
+body {
+    margin: 0; padding: 0;
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Malgun Gothic", Dotum, sans-serif;
+    background-color: #fafaf0;
+    color: #767671;
+}
+/* 공통 */
+
+header, footer {
+    width: 55vw; height: 30vh;
+    margin: 7vw auto 13vw;
+}
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+p {
+    font-weight: 200;
+    line-height: 1.7;
+}
+.title {
+    font-size: 1rem; 
+}
+em {
+    font-weight: 400; color: #000;
+}
+
+.button a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase; letter-spacing: 0.4rem;
+    font-weight: 300; font-size: 10px;
+
+    display: block;
+    width: 180px; height: 50px;
+    border: 2px solid #c8c8c0;
+    text-align: center; line-height: 50px;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.button a:hover {
+    background-color: #c8c8c0; color: #fff;
+}
+.txt{
+    background-color: #f5f4e4;
+}
+
+/* header */
+
+header h1 {
+    font-size: 5rem;
+}
+
+/* main */
+main .box1 {
+    width: 100%;
+    display: flex;
+}
+main .box1 .txt {
+    width: 20vw;
+    padding: 6vw 10vw 0;
+}
+main .box1 .img {
+    width: 60vw; height: 40vw;
+    background: url(./images/img1.jpg) no-repeat 50%/ cover;
+}
+
+main .box2 {
+    width: 100%;
+    display: flex;
+    padding: 5vw 27vw 5vw ;
+}
+main .box2 .txt {
+    width: 20vw;
+    background-color: #fafaf0;
+}
+main .box2 .txt:nth-child(1) {
+    margin-right: 6vw;
+}
+
+main .box3 {
+    width: 100%;
+    display: flex;
+}
+main .box3 .txt {
+    width: 20vw;
+    padding: 6vw 10vw 0;
+}
+main .box3 .img {
+    width: 60vw; height: 40vw;
+    background: url(./images/img2.jpg) no-repeat 50%/ cover;
+}
+
+/* footer */
+footer .info {
+    display: flex;
+}
+footer .info input {
+    outline: none;
+    width: 30vw; height: 50px;
+    border: 1px solid #c8c8c0;
+    border-radius: 30px;
+    background-color: #ffffff2e;
+    margin-top: 30px; margin-right: 1vw;
+}
+footer .info input::placeholder {
+    font-weight: 200; color: #c8c8c0;
+    text-indent: 5px;
+}
+footer .button a {
+    margin-top: 30px;
+}
+footer .icon {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+footer .icon li {
+    width: 3vw; aspect-ratio: 1;
+    border: 2px solid #c8c8c0;
+    border-radius: 50%;
+    margin-right: 0.7vw;
+}
+footer .icon li:nth-child(1) {
+    background: url(./images/twitter.png) no-repeat 50% / 25px;
+}
+footer .icon li:nth-child(2) {
+    background: url(./images/facebook.png) no-repeat 50% / 25px;
+}
+footer .icon li:nth-child(3) {
+    background: url(./images/insta.png) no-repeat 50% / 25px;
+}
+footer .icon li:nth-child(4) {
+    background: url(./images/mail.png) no-repeat 50% / 23px;
+}

@@ -91,6 +91,9 @@ main .box2 .txt {
 main .box2 .txt:nth-child(1) {
     margin-right: 6%;
 }
+main .box2 .txt .title {
+    margin: 0;
+}
 
 main .box3 {
     width: 100%; height: 80vh;

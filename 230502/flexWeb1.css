@@ -44,7 +44,7 @@ em {
     display: block;
     width: 11vw; height: 3vw;
     border: 2px solid #c8c8c0;
-    text-align: center; line-height: 50px;
+    text-align: center; line-height: 3vw;
     border-radius: 30px;
     margin-top: 50px;
 }

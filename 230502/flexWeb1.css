@@ -79,16 +79,17 @@ main .box1 .img {
 }
 
 main .box2 {
-    width: 100%;
+    width: 100%; height: 80vh;
     display: flex;
-    padding: 5vw 27vw 5vw ;
+    justify-content: center;
+    align-items: center;
 }
 main .box2 .txt {
-    width: 20vw;
+    width: 20%;
     background-color: #fafaf0;
 }
 main .box2 .txt:nth-child(1) {
-    margin-right: 6vw;
+    margin-right: 6%;
 }
 
 main .box3 {

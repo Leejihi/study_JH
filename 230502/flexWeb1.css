@@ -129,6 +129,9 @@ footer .icon li {
     border-radius: 50%;
     margin-right: 0.7vw;
 }
+footer .icon li:hover {
+    cursor: pointer;
+}
 footer .icon li:nth-child(1) {
     background: url(./images/twitter.png) no-repeat 50% / 20px;
 }

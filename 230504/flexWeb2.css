@@ -139,7 +139,8 @@ main .video .shadow {
 }
 main .video .video-txt {
     position: absolute;
-    top: 357px; left: 3%; 
+    top: 50%; left: 50%; 
+    transform: translateX(-100%);
 
     z-index: 999;
     color: #fff;
@@ -166,8 +167,8 @@ main .video .video-txt p {
 
 main .video .button2 {
     position: absolute;
-    top: 357px; right: 2%; 
-    z-index: 999;
+    top: 50%; right: 1%;
+    z-index: 999; 
 }
 
 main .video .button2 a {
@@ -395,6 +396,7 @@ main .box4 .us .us-area1 .area1 {
     }
     main .box4 .us .us-area1:hover .area1 {
         background-color: rgba(0, 0, 0, 0.4);
+        cursor: pointer;
     }
 main .box4 .us .us-area1 .area1 .media {
     margin: 13.2% auto; 

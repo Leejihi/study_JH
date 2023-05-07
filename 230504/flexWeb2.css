@@ -278,7 +278,7 @@ main .business {
     position: relative;
 }
 main .busi-1 {
-    width: 51%; height: 500px;
+    width: 52%; height: 500px;
     position: absolute;
     top: 0; left: 0;
 
@@ -333,7 +333,7 @@ main .busi-1 .nav-tab a:hover {
     color: var(--point-color);
 }
 main .busi-2 {
-    width: 51%; height: 500px;
+    width: 50%; height: 500px;
     position: absolute;
     bottom: 0; right: 0;
     text-indent: -9999999%;

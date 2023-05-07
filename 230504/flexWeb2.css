@@ -139,7 +139,7 @@ main .video .shadow {
 }
 main .video .video-txt {
     position: absolute;
-    top: 45%; left: 3%; 
+    top: 357px; left: 3%; 
 
     z-index: 999;
     color: #fff;
@@ -166,7 +166,7 @@ main .video .video-txt p {
 
 main .video .button2 {
     position: absolute;
-    top: 45%; right: 2%; 
+    top: 357px; right: 2%; 
     z-index: 999;
 }
 
@@ -175,7 +175,6 @@ main .video .button2 a {
     border-radius: 50%;  
     background-color: #00000074; color: #fff;
     font-size: 0.8rem;
-    margin-bottom: 20px;
     padding-top: 25px;
     box-sizing: border-box; 
 }
@@ -183,7 +182,7 @@ main .video .button2 a:hover {
     background: linear-gradient( orange, var(--point-color)); 
 }
 main .video .button2 a:nth-child(1) {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 main .video .button2 a img {
     margin-bottom: 10px;

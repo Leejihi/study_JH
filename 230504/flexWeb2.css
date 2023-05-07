@@ -117,10 +117,12 @@ header .nav-sub > li > .check > li:checked > ul > li{
 } */
 
 /* main video */
+main .video {  
+    position: relative;
+}
 main .video .youtube {
     width:100%;
     aspect-ratio:16/9;  
-    position: relative;
 }
 main .video .shadow {
     background: url(./images/main_bg_check.png),
@@ -139,8 +141,7 @@ main .video .shadow {
 }
 main .video .video-txt {
     position: absolute;
-    top: 50%; left: 50%; 
-    transform: translateX(-100%);
+    top: 40%; left: 2%; 
 
     z-index: 999;
     color: #fff;
@@ -167,7 +168,7 @@ main .video .video-txt p {
 
 main .video .button2 {
     position: absolute;
-    top: 50%; right: 1%;
+    top: 40%; right: 1%;
     z-index: 999; 
 }
 

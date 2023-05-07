@@ -485,6 +485,8 @@ main .box4 .us .us-area3 .button {
         margin: 0 auto; margin-top: 95%;
     }
 
+
+
 /* footer */
 
 footer {
@@ -497,7 +499,7 @@ footer .footer-0 {
 }
 
 footer .footer-0 .footer-logo {
-    width: 90%; height: 10vh;
+    width: 90%; height: 30px;
     margin: 0 auto;
     background-color: #f3f3f3;
     display: flex;

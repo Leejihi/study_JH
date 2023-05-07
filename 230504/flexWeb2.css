@@ -347,6 +347,7 @@ main .box2 .button {
 main .box3 {
     width: 100%; height: 80vh;
     background: url(./images/bg_worldmap.png) no-repeat 50% / 70%;
+    margin-bottom: 5%;
 }
 main .box3 h2 {
     margin-top: var(--margin-basic);
@@ -375,7 +376,6 @@ main .box3 .button {
 
 /* main section .box4 */
 main .box4 {
-    padding-top: 40px;
     width: 100%;
 }
 main .box4 .us {

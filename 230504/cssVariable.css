@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* cssVariable.css */
+
+:root {
+  --font-en: 'Play', 'Noto Sans KR',-apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+  --font-ko: 'Noto Sans KR',-apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+  --italic: italic;
+  --point-color: #f18d00;
+  --p-color: rgb(104, 102, 102);
+  --h2-size: 2.5rem;
+  --p-size: -0.4rem;
+  --button-size: 0.8rem;
+  --en-weight: 700;
+  --button-color: #fff;
+  --margin-basic: 10%;
+  --margin-btn: 5vw;
+}

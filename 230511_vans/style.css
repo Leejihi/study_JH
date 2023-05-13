@@ -100,11 +100,21 @@ header .header-wrapper .nav-utill .sns li:first-child a {
   margin-left: 0;
   background: url(./images/icon1.png) no-repeat 0 0 / cover;
 }
+header .header-wrapper .nav-utill .sns li:first-child:hover a {
+  margin-left: 0;
+  background: url(./images/icon3.png) no-repeat 0 0 / cover;
+}
 header .header-wrapper .nav-utill .sns li:nth-child(2)  a {
   background: url(./images/icon1.png) no-repeat -24px 0 / cover;
 }
+header .header-wrapper .nav-utill .sns li:nth-child(2):hover  a {
+  background: url(./images/icon3.png) no-repeat -24px 0 / cover;
+}
 header .header-wrapper .nav-utill .sns li:nth-child(3) a {
   background: url(./images/icon1.png) no-repeat -72px 0 / cover;
+}
+header .header-wrapper .nav-utill .sns li:nth-child(3):hover a {
+  background: url(./images/icon3.png) no-repeat -72px 0 / cover;
 }
 
 /********** contents **********/
@@ -135,7 +145,6 @@ header .header-wrapper .nav-utill .sns li:nth-child(3) a {
   line-height: 3.059vw;
   background-color: #000;
   border: 1px var(--point-color) solid;
-  /* border-bottom: 5px var(--point-color) solid; */
 }
 .main .main-nav li:last-child {
   border-left: none;

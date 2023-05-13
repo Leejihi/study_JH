@@ -624,34 +624,35 @@ footer .footer-wrapper .footer3 .sns .flex {
   margin-top: 0.8vw; 
   cursor: pointer;
 }
-footer .footer-wrapper .footer3 .sns .flex dd {
+footer .footer-wrapper .footer3 .sns .flex dd a {
+  display: block;
   width: 36px; height: 36px; 
   margin-right: 0.4vw;
   background-color: var(--sns-color);
   text-indent: -99999px;
 }
-footer .footer-wrapper .footer3 .sns .flex dd:nth-child(1) {
+footer .footer-wrapper .footer3 .sns .flex dd:nth-child(1) a {
   background: url(./images/icon1.png) no-repeat 0 0 / cover;
 }
-footer .footer-wrapper .footer3 .sns .flex dd:nth-child(1):hover {
+footer .footer-wrapper .footer3 .sns .flex dd:nth-child(1):hover a {
   background: url(./images/icon2.png) no-repeat 0 0 / cover;
 }
-footer .footer-wrapper .footer3 .sns .flex dd:nth-child(2) {
+footer .footer-wrapper .footer3 .sns .flex dd:nth-child(2) a {
   background: url(./images/icon1.png) no-repeat -43px 0 / cover;
 }
-footer .footer-wrapper .footer3 .sns .flex dd:nth-child(2):hover {
+footer .footer-wrapper .footer3 .sns .flex dd:nth-child(2):hover a {
   background: url(./images/icon2.png) no-repeat -43px 0 / cover;
 }
-footer .footer-wrapper .footer3 .sns .flex dd:nth-child(3) {
+footer .footer-wrapper .footer3 .sns .flex dd:nth-child(3) a {
   background: url(./images/icon1.png) no-repeat -86px 0 / cover;
 }
-footer .footer-wrapper .footer3 .sns .flex dd:nth-child(3):hover {
+footer .footer-wrapper .footer3 .sns .flex dd:nth-child(3):hover a {
   background: url(./images/icon2.png) no-repeat -86px 0 / cover;
 }
-footer .footer-wrapper .footer3 .sns .flex dd:nth-child(4) {
+footer .footer-wrapper .footer3 .sns .flex dd:nth-child(4) a {
   background: url(./images/icon1.png) no-repeat -129px 0 / cover;
 }
-footer .footer-wrapper .footer3 .sns .flex dd:nth-child(4):hover {
+footer .footer-wrapper .footer3 .sns .flex dd:nth-child(4):hover a {
   background: url(./images/icon2.png) no-repeat -129px 0 / cover;
 }
 footer .footer-wrapper .footer-under .footer3 p:last-child {

@@ -1,0 +1,492 @@
+http://bdmp-004.cafe24.com/bizdemo141248
+
+
+1920 x 8231 px -> 브라우저
+1548 x
+
+header 영역//////////////////////
+
+nav만 들어 있음
+
+로고 영역 178 x 39
+메뉴영역 802 x 144
+
+
+ABOUT US
+BUSINESS
+PORTFOLIO
+REQUEST
+CUSTOMER CENTER
+SHOP
+ELEMENTS
+
+
+font-family    Montserrat 
+font-weight    600
+font-size        14px
+letter-spacing 0.21px
+line-height    20px
+text-align      left
+text-transform uppercase
+
+
+LOGIN
+JOIN
+
+
+font-family    Montserrat 
+font-weight    600
+font-size        11px
+
+line-height    24px
+text-align      left
+text-transform uppercase
+
+
+폰트패밀리
+Montserrat
+
+------------------
+
+
+body영역////////////////////////////////////////////
+
+===========section1=============
+
+
+txtBox=======
+
+DIGITAL PRODUCT
+DESIGN AGENCY
+
+font-family    Montserrat 
+font-weight    700
+font-size        120px
+letter-spacing -3px
+line-height    108px
+text-align      center
+text-transform uppercase
+
+
+
+We build engaging user experience for early-stage
+startups by connecting the dots between users’ 
+needs and the client’s business model.
+
+font-family    Montserrat 
+font-weight    400
+font-size        25px
+letter-spacing nomal
+line-height    30px
+text-align      center
+
+
+
+imgBox=======
+
+nav
+nav size  1920 x  47  -> 네이게이션 영역을 감싸는 사이즈
+
+Brand story
+버튼 하나의 사이즈 237 x 47
+
+New arrival 
+버튼 하나의 사이즈 260 x 47
+
+font-family    Montserrat 
+font-weight    500
+font-size        20px
+letter-spacing nomal
+line-height    44px
+text-align      center
+
+
+imgBox size   450 x 529 px
+bar siz 450 x 59 px
+
+font
+Street look
+
+font-family    Montserrat 
+font-weight    400
+font-size        16px
+letter-spacing nomal
+line-height    23px
+text-align      center
+
+===========section3=============
+
+전체 사이즈  높이 1696
+
+
+txtBox=======
+
+work
+
+font-family    Montserrat 
+font-weight    600
+font-size        120px
+letter-spacing nomal
+line-height    108px
+text-align      center
+text-transform uppercase
+
+
+This is an excellent company! I personally enjoyed the energy and the professional
+support the whole team gave to us into creating website.
+
+
+font-family    Montserrat 
+font-weight    400
+font-size        18px
+letter-spacing nomal
+line-height    26px
+text-align      center
+
+
+imgBox=======
+
+
+이미지 박스  1, 2
+
+699 x 568 px
+이미지에 커서를 올리면 이미지가 커지면서 흐릿해지면서
+글자가 생긴다
+
+커서 상태일때 글자
+
+Tailoring Interior
+Fastion Trend
+
+font-family    Montserrat 
+font-weight    600
+font-size        32px
+letter-spacing nomal
+line-height    40px
+text-align      center
+
+
+Branding and Brochure
+Branding and Brochure
+
+font-family    NotoSans kr Regular 
+font-weight    400
+font-size        18px
+letter-spacing nomal
+line-height    26px
+text-align      center
+
+
+이미지 박스  3
+
+1420 x 500 px
+
+
+
+
+===========section4=============
+
+전체 사이즈  높이 557.5
+
+
+txtBox=======
+
+EXPLORE THE FEATURES
+
+font-family    Montserrat 
+font-weight    400
+font-size        14px
+letter-spacing 4
+line-height    24px
+text-align      center
+
+
+diverse shop lists
+
+font-family    Montserrat 
+font-weight    600
+font-size        48px
+letter-spacing nomal
+line-height    54px
+text-align      center
+
+
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+type and scrambled it to make a type specimen book. 
+
+color rgb( 111, 111, 111 )
+font-family    NotoSans kr Regular
+font-weight    400
+font-size        16px
+letter-spacing nomal
+line-height    24px
+text-align      center
+
+
+logoBox=========
+
+로고 바  높이 110px
+로고 이미지 하나당 박스 사이즈
+240 x 110  = 총 6개로고 -> 1440 x 110
+
+
+
+===========section5=============
+
+img1
+
+size 480 x 699.5
+
+
+
+Nike ID
+Air Jordan
+Braun Watches
+Fitbit Watches
+
+font-family    Arial
+font-weight    600
+font-size        28px
+letter-spacing nomal
+line-height    27px
+text-align      left
+
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+font-family    NotoSans
+font-weight    400
+font-size        14px
+letter-spacing nomal
+line-height    24px
+text-align      left
+
+버튼 사이즈  110.16 x 27.2
+
+Detail view
+
+font-family    Montserrat 
+font-weight    500
+font-size        10px
+letter-spacing 0.5
+line-height    22px
+text-align      center
+
+
+===========section6=============
+
+높이 618.5
+
+Q ->이미지 사이즈 343 x 358
+
+01
+
+font-family    Montserrat 
+font-weight    600
+font-size        20px
+letter-spacing 0.5
+line-height    26px
+
+
+Unique and bold website design
+We're ready to start now
+We Deliver the highest quality
+
+font-family    NotoSans
+font-weight    400
+font-size        25px
+letter-spacing nomal
+line-height    26px
+text-align      left
+
+
+Lorem Ipsum is simply dummy text of the printing and
+typesetting industry. Lorem Ipsum has been the industry's
+standard dummy text ever since the 1500s, when an unknown
+printer took a galley of type and scrambled it to make a type
+specimen book.
+
+
+font-family    NotoSans
+font-weight    400
+font-size        14px
+letter-spacing nomal
+line-height    24px
+text-align      left
+
+===========section7=============
+비디오영역
+===========section8=============
+
+
+our visionary goal & truly unique designs
+that are specially curated to perfection
+
+
+font-family    Montserrat
+font-weight    300
+font-size        42px
+letter-spacing nomal
+line-height    48px
+text-align      left
+
+
+for our clients.
+
+
+font-family    Montserrat
+font-weight    600
+font-size        42px
+letter-spacing nomal
+line-height    48px
+text-align      left
+
+
+
+INTRODUCTION
+BUSINEESS AREA
+REQUEST
+
+font-family    Montserrat
+font-weight    600
+font-size        22px
+letter-spacing 1
+line-height    27px
+text-align      left
+
+
+
+Nulla vitae elit libero, 
+a pharetra augue. Etiam porta sem 
+malesuada magna mollis euismod.
+
+color  117 117 117
+font-family    NotoSans
+font-weight    400
+font-size        18px
+letter-spacing nomal
+line-height    26px
+text-align      left
+
+
+More View
+
+font-family    Montserrat
+font-weight    500
+font-size        10px
+letter-spacing 0.5
+line-height    22px
+text-align      가운데
+대문자
+
+
+===========section9=============
+
+높이 160
+
+We design brand, digital experience customers
+
+font-family    Montserrat
+font-weight    400
+font-size        25px
+letter-spacing 0.5
+line-height    26px
+text-align      가운데
+대문자
+
+
+버튼
+PDF Download
+
+font-family    Montserrat
+font-weight    500
+font-size        12px
+letter-spacing 0.5
+line-height    24px
+text-align      가운데
+대문자
+
+
+===========footer=============
+
+box1======  높이 152.5
+
+화살표  35 또는 36 x 30
+
+
+INTRO
+BUSIENSS
+Q & A
+NOTICE
+
+font-family    Montserrat
+font-weight    600
+font-size        14px
+letter-spacing none
+line-height    24px
+text-align      가운데
+대문자
+
+
+
+box2======  높이 152.5
+
+
+Our Address
+Our MAILBOX
+SNS
+
+font-family    Montserrat
+font-weight    600
+font-size        14px
+letter-spacing none
+line-height    24px
+text-align      가운데  / 대문자
+
+
+451, Gangseo-ro, Gangseo-gu, Seoul 
+sangmart@naver.com
+
+color  214 213 213
+font-family    NotoSans
+font-weight    400
+font-size        14px
+letter-spacing nomal
+line-height    26px
+text-align      가운데
+
+sns 아이콘 4개
+
+
+box3======  
+
+
+상호명 : 비쥬얼박스  대표 : 최상영  개인정보책임자 : 최상영 사업자등록번호 : 109-11-65984 
+통신판매업신고번호 : 제2013-서울강서-1002호 주소: 서울특별시 강서구 강서로 451 유일스카이 오피스텔 617호
+
+
+color  111 111 111
+font-family    NotoSans
+font-weight    400
+font-size        14px
+letter-spacing nomal
+line-height    24px
+text-align      가운데
+
+고객지원 : 문의 게시판 또는 010-4640-8645 (운영시간 10:00 ~ 17:00 점심: 11:30-13:00, 주말/공휴일은 제외)
+
+
+color  255 255 255
+font-family    NotoSans
+font-weight    400
+font-size        14px
+letter-spacing nomal
+line-height    24px
+text-align      가운데
+
+
+-----------Quick start
+전화 버튼과 메일 버튼
+40 x 40 사이즈

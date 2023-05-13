@@ -69,11 +69,11 @@ header .nav-main a:hover{
     color: var(--point-color); 
 }
 header .nav-sub {
-    /* flex-grow: 2; */
     font-size: var(--button-size);
     font-weight: var(--button-weight);
     color: var(--button-color);
     box-sizing: border-box;
+
 }
 header .nav-sub > li {
     display: inline-block;
@@ -94,6 +94,7 @@ header .nav-sub .button1 svg {
     position: absolute; 
     left: 11px; top: 4px; 
 }
+
 header .nav-sub > li > .check .arrow {
     font-size: 1.1rem;
 }
@@ -104,17 +105,18 @@ header .nav-sub > li > .check:checked .arrow .arr2 {
     transform: rotate(180deg);
 }
 header .nav-sub > li > .check > li > ul > li {
+    text-align: center; 
     display: none;
-    background-color: var(--point-color);
 }
-/* header .nav-sub > li > .check:checked > li > ul > li > a {
-    display: block;
-    width: 45px; height: 30px;
-    text-align: center; line-height: 30px;
-}
-header .nav-sub > li > .check > li:checked > ul > li{
-    display: block;
+/* header .nav-sub > li > .check > li > ul > li > a {
+    display: block; padding: 10px 20px;
+    background-color: #fff; color: var(--p-color);
 } */
+
+header .nav-sub > li > .check > li > ul > li:hover > a {
+    display: block;
+    background-color: var(--point-color); color: #fff;
+} 
 
 /* main video */
 main .video {  

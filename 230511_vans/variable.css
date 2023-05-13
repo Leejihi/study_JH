@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/* 변수선언 */
+:root {
+  --point-color: #f7121b;
+  --p-color: #dad9d9;
+  --info-color: #757575;
+  --footer-color: #1c1c1c;
+  --sns-color: #333;
+
+  --font-family-en: "Montserrat", Arial, Helvetica, sans-serif;
+  --font-family-ko: "Noto Sans KR", -apple-system, BlinkMacSystemFont,
+    "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+
+  --font-size10: 0.625rem;
+  --font-size11: 0.6875rem;
+  --font-size12: 0.75rem;
+  --font-size13: 0.8125rem;
+  --font-size14: 0.875rem;
+  --font-size15: 0.9375rem;
+  --font-size17: 1.0625rem;
+  --font-size18: 1.125rem;
+  --font-size20: 1.25rem;
+  --font-size25: 1.5625rem;
+  --font-size28: 1.75rem;
+  --font-size30: 1.875rem;
+  --font-size48: 3rem;
+  --font-size64: 4rem;
+  --font-size68: 4.25rem;
+  --font-size120: 7.5rem;
+}

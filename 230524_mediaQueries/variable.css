@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/* 변수선언 */
+:root {
+  --font-family-title: "Montserrat", Arial, Helvetica, sans-serif;
+  --font-family-p: "Noto Sans KR", -apple-system, BlinkMacSystemFont;
+
+  --p-color: rgb(33, 37, 41);
+  --mtop-color: rgba(0, 0, 0, 0.5);
+  --bg-color: #f2f2f2;
+  --f-color: rgba(0, 0, 0, 0.02);
+
+  --font-size-14: 0.875rem;
+  --font-size-15: 0.9375rem;
+  --font-size-16: 1rem;
+  --font-size-17: 1.063rem;
+  --font-size-18: 1.125rem;
+  --font-size-20: 1.25rem;
+  --font-size-24: 1.75rem;
+  --font-size-28: 1.5rem;
+  --font-size-32: 2rem;
+  --font-size-35: 2.1875rem;
+  --font-size-45: 2.8125rem;
+  --font-size-48: 3rem;
+  --font-size-50: 3.125rem;
+  --font-size-56: 3.5rem;
+  --font-size-67: 4.1875rem;
+  --font-size-72: 4.5rem;
+}

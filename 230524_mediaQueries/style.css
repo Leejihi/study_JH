@@ -180,7 +180,7 @@ main .m-top .img-list .img-number li {
   margin: 6vw 4vw;
   border-bottom: 1px solid #ddd;
 }
-.m-topTxt .topTxt:last-child {
+.m-topTxt .none {
   border-bottom: none;
 }
 .m-topTxt .topTxt h3 {
@@ -284,6 +284,11 @@ section > .title::after {
 .m-youtube {
   background-color: var(--bg-color);
   padding: 26px 10vw;
+}
+.m-youtube h3 {
+  margin: 40px 0;
+  font-size: var(--font-size-35);
+  font-weight: 700;
 }
 
 .m-youtube p {

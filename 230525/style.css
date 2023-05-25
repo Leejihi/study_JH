@@ -296,13 +296,14 @@ section > .title::after {
 
 .m-service h3 {
   text-align: center;
+  margin-top: 10vw;
 }
 .m-service figure {
   width: 90%;
   margin: 0 auto;
   background-color: #fff;
   box-shadow: 0 10px 10px #dddddd8e;
-  margin-bottom: 20vw;
+  margin-bottom: 10vw;
 }
 .m-service figure img {
   width: 100%;

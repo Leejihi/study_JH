@@ -175,13 +175,23 @@
   }
 
   .m-service figure {
-    width: 60%;
+    box-sizing: border-box;
   }
   .m-service figure img {
     width: 100%;
   }
+
   .m-service figure figcaption {
     font-size: var(--font-size-24);
+  }
+  .m-service .ser-imgList li {
+    width: 100%;
+  }
+  .m-service .ser-imgList li:nth-child(1) figure {
+    display: block;
+  }
+  .m-service .ser-imgList li:nth-child(2) figure {
+    display: block;
   }
 
   .m-service .service-logo {

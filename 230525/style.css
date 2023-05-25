@@ -298,7 +298,7 @@ section > .title::after {
   text-align: center;
 }
 .m-service figure {
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
   background-color: #fff;
   box-shadow: 0 10px 10px #dddddd8e;
@@ -316,6 +316,10 @@ section > .title::after {
   font-weight: 300;
   color: var(--mtop-color);
   padding: 0 30px 20px 20px;
+}
+
+.m-service .ser-imgList figure {
+  display: none;
 }
 
 .m-service .service-logo {

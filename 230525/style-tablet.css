@@ -60,6 +60,23 @@
   }
 
   /****** main  sec6******/
+  .m-service .none {
+    display: none;
+  }
+  .m-service .ser-imgList {
+    display: flex;
+  }
+  .m-service .ser-imgList figure {
+    display: block;
+  }
+
+  .m-service .ser-imgList li:nth-child(1) figure {
+    display: none;
+  }
+  .m-service .ser-imgList li:nth-child(2) figure {
+    display: none;
+  }
+
   .m-service .service-logo {
     grid-template: repeat(3, 20vw) / repeat(4, 1fr);
   }

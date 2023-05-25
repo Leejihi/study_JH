@@ -9,7 +9,6 @@
 
   header {
     height: 80px;
-    z-index: 9999999;
 
     grid-template-columns: 1fr 2fr;
     grid-auto-rows: 80px;

@@ -20,6 +20,7 @@ body {
   position: fixed;
   bottom: 20px;
   left: 20px;
+  z-index: 999999;
 }
 
 .block {
@@ -33,6 +34,7 @@ header {
 
   position: fixed;
   top: 0;
+  z-index: 9999999;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -226,7 +228,7 @@ main .m-top .img-number {
 
 /* 공통 */
 section > h3 {
-  margin: 2vw 0;
+  margin: 10vw 0 2vw;
   font-size: var(--font-size-35);
   font-weight: 700;
 }
@@ -377,6 +379,7 @@ section > .title::after {
 }
 .m-location h3 {
   font-family: var(--font-family-title);
+  margin-bottom: 5vw;
 }
 .m-location .map {
   width: 100%;
@@ -420,8 +423,7 @@ section > .title::after {
 .m-talk {
   text-align: center;
   width: 100%;
-  height: 40vh;
-  /* aspect-ratio: 4/3; */
+  height: 60vh;
   background: url(./images/img-08.jpeg) no-repeat 50% / cover;
 
   color: #fff;

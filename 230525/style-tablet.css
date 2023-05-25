@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+/* 변수선언 */
+@import url(./variable.css);
+
+/* tablet */
+@media {
+  /****** main  sec1******/
+  main .m-top {
+    height: 138vh;
+    text-align: left;
+    padding-left: 5vw;
+  }
+  main .m-top h2 {
+    font-size: var(--font-size-67);
+    line-height: 5rem;
+  }
+
+  /****** main  sec3******/
+  .m-topImg {
+    grid-template: repeat(3, 200px) / repeat(3, 1fr);
+
+    gap: 0vh;
+  }
+  .m-topImg .imgBox:nth-child(4) {
+    grid-column: span 2;
+  }
+  .m-topImg .imgBox:nth-child(5) {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+  }
+  .m-topImg .imgBox {
+    overflow: hidden;
+  }
+  .m-topImg .imgBox .imgBox-t {
+    transition: 0.3s;
+    transform: translateY(200px);
+  }
+  .m-topImg .imgBox:hover .imgBox-t {
+    transform: translateY(0);
+  }
+
+  /* 공통 */
+  section > h3 {
+    margin: 40px 0;
+    font-size: var(--font-size-45);
+    font-weight: 700;
+  }
+
+  /****** main  sec4******/
+  .m-business .block {
+    display: inline;
+  }
+  .m-business .br {
+    display: block;
+  }
+  .m-business .box {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  }
+
+  /****** main  sec6******/
+  .m-service .service-logo {
+    grid-template: repeat(3, 20vw) / repeat(4, 1fr);
+  }
+
+  /****** footer ******/
+  footer .f-top .f-top-txt {
+    width: 100%;
+  }
+  footer .f-top .t-tbox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  footer .f-top .sns {
+    display: grid;
+    grid-template: 30px / repeat(5, 30px);
+    gap: 0.5vw;
+    padding-bottom: 50px;
+  }
+}

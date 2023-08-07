@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+/* font-family: 'Montserrat',  'Noto Sans KR', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
+/* 변수선언 */
+@import url(./variable.css);
+
+/* 모바일 ~ 390px ~ 640px */
+
+/*********** common ***********/
+
+/****** article1 main ******/
+.main {
+    width: 100%;
+    background: url(./images/ck.png) 0 49vw / 8%;
+  }
+  
+  .main .main-top {
+    width: 60%;
+    margin: 20vw auto;
+    background: url(./images/m-logo2.png) no-repeat 50% / 100%;
+    min-width: 400px;
+    background-color: #fff;
+  }
+
+  /****** article3 about ******/
+
+  .about h2 {
+    font-size: var(--font-size72);
+    font-weight: 600;
+    margin-bottom: 10vw;
+    line-height: 5rem;
+  }
+
+  /*********** footer ***********/
+footer {
+    width: 100%;
+    height: 55vh;
+    display: grid;
+    place-content: center;
+    padding: 5vw;
+
+    }
+
+    footer .footer-wrapper .footer-top {
+        display: grid;
+        grid-template-rows: 36px 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+                "SNS"
+                "LEGAL"
+            ;
+    }
+          
+    footer .footer-wrapper .footer-top .footer2 .info {
+        width: 100%;
+        grid-row: LEGAL;
+        grid-column: LEGAL;
+      }
+      footer .footer-wrapper .footer2 .info:nth-child(1) {
+        display: none;
+      }
+      footer .footer-wrapper .footer2 .info:nth-child(2) {
+        display: none;
+      }
+      footer .footer-wrapper .footer2 .info:nth-child(3) {
+        margin-left: 0;
+        width: 100%;
+
+        display: flex;
+      }
+      footer .footer-wrapper .footer2 .info:nth-child(3) dt {
+        display: none;
+      }
+
+    footer .footer-wrapper .footer-top .footer3 .sns {
+        grid-row: SNS;
+        grid-column: SNS;
+    }
+    footer .footer-wrapper .footer3 .sns dt {
+        display: none;
+    }

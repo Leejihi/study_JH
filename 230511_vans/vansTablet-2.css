@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+/* font-family: 'Montserrat',  'Noto Sans KR', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
+/* 변수선언 */
+@import url(./variable.css);
+
+/* 테블릿 버전2  640 ~ 820px */
+
+/*********** common ***********/
+
+/*********** header ***********/
+header .header-wrapper .nav {
+  display: none;
+}
+
+
+/********** contents **********/
+/****** article1 main. imgBox ******/
+
+/******* id="viDeo" video*******/
+
+#viDeo {
+  height: 85vh;
+}
+
+/****** article3 about ******/
+.about {
+  padding-top: 20vw;
+}
+
+
+
+
+
+
+/******* article5 custom  video*******/
+/****** article1 main ******/
+
+.custom .title > div {
+  min-width: 455px;
+  min-height: 40px;
+}
+
+.custom .title h3 {
+  font-size: var(--font-size46);
+}
+
+/******* article5 custom custom-txt *******/
+
+.custom .custom-txt p .block-line {
+  display: inline;
+}
+
+/* .custom-txt .txt-box */
+
+.custom .custom-txt {
+  margin: 12vw auto;
+}
+.custom .custom-txt .txt-box {
+  flex-wrap: wrap; 
+}
+.custom .custom-txt .txt-box .txt {
+  width: 100%;
+  margin-right: 0;
+  margin-bottom: 10vw;
+  display: grid;
+  grid-template-columns: 1fr 104px;
+  grid-template-rows: repeat(2, 5vw);
+}
+.custom .custom-txt .txt-box .txt p {
+  grid-row: 2/3;
+  margin-top: 0;
+}
+
+.custom .custom-txt .txt-box .txt .btn {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+/******* article5 custom custom-img *******/
+
+.custom .banner {
+  height: 15vw;
+}
+
+.custom .banner p {
+  margin-right: 1vw;
+}
+
+/*********** footer ***********/
+footer {
+width: 100%;
+height: 55vh;
+display: grid;
+place-content: center;
+padding: 5vw;
+}
+
+footer .footer-wrapper .footer-top {
+  margin-bottom: 5vw;
+}
+footer .footer-wrapper .footer2 {
+  width: 70%;
+  gap: 5vw;
+}
+footer .footer-wrapper .footer2 .info:nth-child(1) {
+  width: 70%;
+}
+
+footer .footer-wrapper .footer2 .copyright {
+  margin-top: 3vw;
+}
+
+footer .footer-wrapper .footer3 {
+  width: 30%;
+}
+footer .footer-wrapper .footer-under .footer3 p:last-child {
+  width: 100%;
+}

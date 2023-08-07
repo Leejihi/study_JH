@@ -8,9 +8,9 @@
   --footer-color: #1c1c1c;
   --sns-color: #333;
 
-  --font-family-en: "Montserrat", Arial, Helvetica, sans-serif;
-  --font-family-ko: "Noto Sans KR", -apple-system, BlinkMacSystemFont,
-    "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+  --font-family-en: 'Montserrat', Arial, Helvetica, sans-serif;
+  --font-family-ko: 'Noto Sans KR', -apple-system, BlinkMacSystemFont,
+    'Malgun Gothic', '맑은 고딕', helvetica, 'Apple SD Gothic Neo', sans-serif;
 
   --font-size10: 0.625rem;
   --font-size11: 0.6875rem;
@@ -24,8 +24,11 @@
   --font-size25: 1.5625rem;
   --font-size28: 1.75rem;
   --font-size30: 1.875rem;
+  --font-size40: 2.5rem;
+  --font-size46: 2.875rem;
   --font-size48: 3rem;
   --font-size64: 4rem;
   --font-size68: 4.25rem;
+  --font-size72: 4.5rem;
   --font-size120: 7.5rem;
 }
